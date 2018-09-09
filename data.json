@@ -1,7 +1,7 @@
 {
   "guitarras" : [
       {
-          "id" : "1",
+          "id" : "guitarra1",
           "idCategoria" : "1",
           "nombre" : "ERIC JOHNSON SIGNATURE STRATOCASTER® THINLINE",
           "descripcion" : "La Eric Johnson Signature Stratocaster Thinline es el matrimonio perfecto entre un cuerpo semi-hueco y una Stratocaster tradicional",
@@ -12,28 +12,158 @@
 
 
       {
-          "id" : "3",
+          "id" : "guitarra2",
           "idCategoria" : "1",
-          "nombre" : "ERIC JOHNSON SIGNATURE STRATOCASTER® THINLINE",
-          "descripcion" : "La Eric Johnson Signature Stratocaster Thinline es el matrimonio perfecto entre un cuerpo semi-hueco y una Stratocaster tradicional",
-          "precio" : "7500",
+          "nombre" : "PLAYER STRATOCASTER® PLUS TOP",
+          "descripcion" : "Con este clásico sonido de agudos campanilleantes, medios pronunciados y bajos robustos, combinados con una articulación cristalina, la Player Stratocaster Plus Top está repleta de auténtico estilo y sensación Fender.",
+          "precio" : "9500",
           "srcimagen" : "IMG/guitarra1.jpg"
       },
       {
-          "id" : "2",
+          "id" : "guitarra3",
           "idCategoria" : "1",
-          "nombre" : "ERIC JOHNSON SIGNATURE STRATOCASTER® THINLINE",
-          "descripcion" : "La Eric Johnson Signature Stratocaster Thinline es el matrimonio perfecto entre un cuerpo semi-hueco y una Stratocaster tradicional",
-          "precio" : "7500",
-          "srcimagen" : "IMG/guitarra1.jpg"
+          "nombre" : "PLAYER STRATOCASTER® ZURDOS",
+          "descripcion" : "Con este clásico sonido de agudos campanilleantes, medios pronunciados y bajos robustos, combinados con una articulación cristalina, la Player Stratocaster para zurdos está repleta de auténtico estilo y sensación Fender",
+          "precio" : "8000",
+          "srcimagen" : "IMG/guitarra3.jpg"
       },
-      {
-          "id" : "4",
+       {
+          "id" : "guitarra4",
           "idCategoria" : "1",
-          "nombre" : "ERIC JOHNSON SIGNATURE STRATOCASTER® THINLINE",
-          "descripcion" : "La Eric Johnson Signature Stratocaster Thinline es el matrimonio perfecto entre un cuerpo semi-hueco y una Stratocaster tradicional",
-          "precio" : "7500",
-          "srcimagen" : "IMG/guitarra1.jpg"
+          "nombre" : "PLAYER JAZZMASTER®",
+          "descripcion" : "Con un sonido grueso y denso, con un estilo elegante y atractivo, la Player Jazzmaster se destaca de todas. Es un instrumento inspirador con un tono Fender flexible y auténtico, un sonido que funciona con cualquier tipo de música.",
+          "precio" : "5000",
+          "srcimagen" : "IMG/guitarra4.jpg"
+      },
+       {
+          "id" : "guitarra5",
+          "idCategoria" : "1",
+          "nombre" : "2018 LIMITED EDITION STRAT-TELE® HYBRID",
+          "descripcion" : "La Strat-Tele Híbrida es el instrumento ideal para tocar esos fraseos intensos en cualquier circunstancia. Hemos añadido a la Tele® tres pastillas Custom Shop '69 Strat®, un puente Strat con trémolo sincronizado y un elegante logotipo plateado Fender",
+          "precio" : "6500",
+          "srcimagen" : "IMG/guitarra5.jpg"
+      },
+       {
+          "id" : "guitarra6",
+          "idCategoria" : "1",
+          "nombre" : ">AMERICAN ORIGINAL '50S STRATOCASTER® LEFT-HAND",
+          "descripcion" : "A menudo copiada, pero nunca superada, la Stratocaster es posiblemente la guitarra eléctrica más apreciada del mundo. Electrificó el mundo de la música desde su debut en 1954 y su sonido natural y versátil hizo de la Stratocaster el punto de referencia para el sonido de guitarra eléctrica ideal",
+          "precio" : "10000",
+          "srcimagen" : "IMG/guitarra6.jpg"
+      },
+       {
+          "id" : "guitarra7",
+          "idCategoria" : "1",
+          "nombre" : "PLAYER TELECASTER® ZURDOS",
+          "descripcion" : "Audaz, innovadora y resistente, la Player Telecaster es una auténtica Fender, de principio a fin. La sensación, el estilo y, lo más importante, el sonido: lo tiene todo, esperando que la utilices para hacer tu música",
+          "precio" : "11000",
+          "srcimagen" : "IMG/guitarra7.jpg"
+      },
+       {
+          "id" : "guitarra8",
+          "idCategoria" : "1",
+          "nombre" : "2018 LIMITED EDITION TROUBLEMAKER TELE®",
+          "descripcion" : "Ser músico es un acto rebelde y audaz: se necesita mucha fuerza para subir al escenario y convencer a una multitud de extraños para que amen algo que nunca habían escuchado. Para llamar la atención, necesitas la herramienta adecuada, por ejemplo, la Troublemaker Tele.",
+          "precio" : "7200",
+          "srcimagen" : "IMG/guitarra8.jpg"
+      },
+
+      {
+          "id" : "guitarra9",
+          "idCategoria" : "1",
+          "nombre" : "PLAYER STRATOCASTER®",
+          "descripcion" : "El sonido inspirador de una Stratocaster es uno de los fundamentos de Fender. Con este clásico sonido de agudos campanilleantes, medios pronunciados y bajos robustos, combinados con una articulación cristalina, la Player Stratocaster está repleta de auténtico estilo y sensación Fender",
+          "precio" : "12500",
+          "srcimagen" : "IMG/guitarra9.jpg"
       }
                 ]
+}
+
+{
+
+
+"bajos" : [
+      {
+          "id" : "bajo1",
+          "idCategoria" : "1",
+          "nombre" : "ERIC JOHNSON SIGNATURE STRATOCASTER® THINLINE",
+          "descripcion" : "La Eric Johnson Signature Stratocaster Thinline es el matrimonio perfecto entre un cuerpo semi-hueco y una Stratocaster tradicional",
+          "precio" : "7500",
+          "srcimagen" : "IMG/bajo1.jpg"
+      },
+
+
+
+      {
+          "id" :"bajo2",
+          "idCategoria" : "1",
+          "nombre" : "PLAYER STRATOCASTER® PLUS TOP",
+          "descripcion" : "Con este clásico sonido de agudos campanilleantes, medios pronunciados y bajos robustos, combinados con una articulación cristalina, la Player Stratocaster Plus Top está repleta de auténtico estilo y sensación Fender.",
+          "precio" : "9500",
+          "srcimagen" : "IMG/bajo2.jpg"
+      },
+      {
+          "id" : "bajo3",
+          "idCategoria" : "1",
+          "nombre" : "PLAYER STRATOCASTER® ZURDOS",
+          "descripcion" : "Con este clásico sonido de agudos campanilleantes, medios pronunciados y bajos robustos, combinados con una articulación cristalina, la Player Stratocaster para zurdos está repleta de auténtico estilo y sensación Fender",
+          "precio" : "8000",
+          "srcimagen" : "IMG/bajo3.jpg"
+      },
+       {
+          "id" : "bajo4",
+          "idCategoria" : "1",
+          "nombre" : "PLAYER JAZZMASTER®",
+          "descripcion" : "Con un sonido grueso y denso, con un estilo elegante y atractivo, la Player Jazzmaster se destaca de todas. Es un instrumento inspirador con un tono Fender flexible y auténtico, un sonido que funciona con cualquier tipo de música.",
+          "precio" : "5000",
+          "srcimagen" : "IMG/bajo4.jpg"
+      },
+       {
+          "id" : "bajo5",
+          "idCategoria" : "1",
+          "nombre" : "2018 LIMITED EDITION STRAT-TELE® HYBRID",
+          "descripcion" : "La Strat-Tele Híbrida es el instrumento ideal para tocar esos fraseos intensos en cualquier circunstancia. Hemos añadido a la Tele® tres pastillas Custom Shop '69 Strat®, un puente Strat con trémolo sincronizado y un elegante logotipo plateado Fender",
+          "precio" : "6500",
+          "srcimagen" : "IMG/bajo5.jpg"
+      },
+       {
+          "id" : "bajo6",
+          "idCategoria" : "1",
+          "nombre" : ">AMERICAN ORIGINAL '50S STRATOCASTER® LEFT-HAND",
+          "descripcion" : "A menudo copiada, pero nunca superada, la Stratocaster es posiblemente la guitarra eléctrica más apreciada del mundo. Electrificó el mundo de la música desde su debut en 1954 y su sonido natural y versátil hizo de la Stratocaster el punto de referencia para el sonido de guitarra eléctrica ideal",
+          "precio" : "10000",
+          "srcimagen" : "IMG/bajo6.jpg"
+      },
+       {
+          "id" : "bajo7",
+          "idCategoria" : "1",
+          "nombre" : "PLAYER TELECASTER® ZURDOS",
+          "descripcion" : "Audaz, innovadora y resistente, la Player Telecaster es una auténtica Fender, de principio a fin. La sensación, el estilo y, lo más importante, el sonido: lo tiene todo, esperando que la utilices para hacer tu música",
+          "precio" : "11000",
+          "srcimagen" : "IMG/bajo7.jpg"
+      },
+       {
+          "id" : "bajo8",
+          "idCategoria" : "1",
+          "nombre" : "2018 LIMITED EDITION TROUBLEMAKER TELE®",
+          "descripcion" : "Ser músico es un acto rebelde y audaz: se necesita mucha fuerza para subir al escenario y convencer a una multitud de extraños para que amen algo que nunca habían escuchado. Para llamar la atención, necesitas la herramienta adecuada, por ejemplo, la Troublemaker Tele.",
+          "precio" : "7200",
+          "srcimagen" : "IMG/bajo8.jpg"
+      },
+
+      {
+          "id" : "bajo9",
+          "idCategoria" : "1",
+          "nombre" : "PLAYER STRATOCASTER®",
+          "descripcion" : "El sonido inspirador de una Stratocaster es uno de los fundamentos de Fender. Con este clásico sonido de agudos campanilleantes, medios pronunciados y bajos robustos, combinados con una articulación cristalina, la Player Stratocaster está repleta de auténtico estilo y sensación Fender",
+          "precio" : "12500",
+          "srcimagen" : "IMG/bajo9.jpg"
+      }
+                ]
+
+
+
+
+
+
 }
