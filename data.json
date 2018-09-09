@@ -7,6 +7,33 @@
           "descripcion" : "La Eric Johnson Signature Stratocaster Thinline es el matrimonio perfecto entre un cuerpo semi-hueco y una Stratocaster tradicional",
           "precio" : "7500",
           "srcimagen" : "IMG/guitarra1.jpg"
+      },
+
+
+
+      {
+          "id" : "3",
+          "idCategoria" : "1",
+          "nombre" : "ERIC JOHNSON SIGNATURE STRATOCASTER® THINLINE",
+          "descripcion" : "La Eric Johnson Signature Stratocaster Thinline es el matrimonio perfecto entre un cuerpo semi-hueco y una Stratocaster tradicional",
+          "precio" : "7500",
+          "srcimagen" : "IMG/guitarra1.jpg"
+      },
+      {
+          "id" : "2",
+          "idCategoria" : "1",
+          "nombre" : "ERIC JOHNSON SIGNATURE STRATOCASTER® THINLINE",
+          "descripcion" : "La Eric Johnson Signature Stratocaster Thinline es el matrimonio perfecto entre un cuerpo semi-hueco y una Stratocaster tradicional",
+          "precio" : "7500",
+          "srcimagen" : "IMG/guitarra1.jpg"
+      },
+      {
+          "id" : "4",
+          "idCategoria" : "1",
+          "nombre" : "ERIC JOHNSON SIGNATURE STRATOCASTER® THINLINE",
+          "descripcion" : "La Eric Johnson Signature Stratocaster Thinline es el matrimonio perfecto entre un cuerpo semi-hueco y una Stratocaster tradicional",
+          "precio" : "7500",
+          "srcimagen" : "IMG/guitarra1.jpg"
       }
                 ]
 }

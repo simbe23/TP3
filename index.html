@@ -33,11 +33,8 @@
 
     <script type="text/javascript">
 
-        $.getJSON('data.json', function(datos){
-            $.each(datos.guitarras, function(indice){
-                  var option = $('<option>'+datos.gutitarras[indice].nombre+'</option>');
-                  $("#items").append(option);
-            });
+        $.getJSON('data.json', function(data){
+         	console.log(data);
         });
     </script>
  	<!-- <div class="products">
