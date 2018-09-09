@@ -1,7 +1,8 @@
 $(document).ready(function(){
 	setBindings();
 
-			var total = 0;
+
+var total = 0;
 
 function setBindings() {
 	$(".navbar a").click(function(e){
@@ -58,7 +59,7 @@ function myFunction() {
   }
 }
 
-	
+
 $("#submit").click(function(){
 	var letters = /^[A-Za-z]+$/;
 	var x = $("[name=firstname]").val();
@@ -73,12 +74,12 @@ $("#submit").click(function(){
 				return false;
 		} else if (x.match(letters) && y.match(letters)) {
 			alert('Nombre: ' + x + '\nApellido: ' + y + '\nFecha de nacimiento: ' + z + '\nSexo: ' + w + '\nValoracion: ' + v);
-			
+
 			$("#nota-informativa")
 			.delay(1) // Tiempo del retraso en milisegundos antes de que aparezca el contenedor
 			.show( "bounce", { times:3, distance:100, direction:'down' }, 2000 ) // Uso de .show, específicamente con bounce y algunos parámetros específicos de esta animación.
 			setTimeout(function() { $("#nota-informativa").hide(); }, 5000);
-			
+
 			return false;
 			}
 			else
@@ -94,7 +95,6 @@ $("#cancelar").click(function(){
 				} else {
 					return false;
 		}
-});	
-	
 });
 
+});
