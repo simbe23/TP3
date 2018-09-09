@@ -26,17 +26,23 @@
     </div>
 
     <main>
-    Elementos:
-    <select name="items" id="items">
-        <option value="">0</option>
-    </select>
+  <section>
+
+  </section>
+
+
 
     <script type="text/javascript">
-
+        var section = document.querySelector('section');
         $.getJSON('data.json', function(datos){
             $.each(datos.guitarras, function(indice){
-                  var option = $('<option>'+datos.guitarras[indice].nombre+'</option>');
-                  $("#items").append(option);
+                  var myArticle = document.createElement('article');
+                  var myH1 = document.createElement('h1');
+                  myH1.textContent = datos.guitarras[indice].nombre;
+
+
+                  myArticle.appendChild(myH1);
+                  section.appendChild(myArticle);
             });
             $.each(datos.bajos, function(indice){
                   var option = $('<option>'+datos.bajos[indice].nombre+'</option>');
