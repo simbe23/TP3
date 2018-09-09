@@ -47,12 +47,12 @@
                 var myImgBox = document.createElement('img');
                 var myDetails = document.createElement('details');
                 var myContent = document.createElement('content');
-                var myName = document.createElement('h2');
+                var myName = document.createElement('h1');
                 var myDescription = document.createElement('p');
-                var myPrecio = document.createElement('h3');
+                var myPrecio = document.createElement('h1');
                 myImgBox.src = datos.guitarras[indice].srcimagen;
 
-                myPrecio.textContent = datos.guitarras[indice].precio;
+                myPrecio.textContent = datos.guitarras[indice].precio
 
 
                 myContent.appendChild(myPrecio);
@@ -63,9 +63,65 @@
 
           });
           $.each(datos.bajos, function(indice){
-                var option = $('<option>'+datos.bajos[indice].nombre+'</option>');
-                $("#items").append(option);
+                var myBox = document.createElement('box');
+                var myImgBox = document.createElement('img');
+                var myDetails = document.createElement('details');
+                var myContent = document.createElement('content');
+                var myName = document.createElement('h1');
+                var myDescription = document.createElement('p');
+                var myPrecio = document.createElement('h1');
+                myImgBox.src = datos.bajos[indice].srcimagen;
+
+                myPrecio.textContent = datos.bajos[indice].precio
+
+
+                myContent.appendChild(myPrecio);
+                myDetails.appendChild(myContent);
+                myImgBox.appendChild(myContent);
+                myBox.appendChild(myImgBox);
+                section.appendChild(myBox);
+
           });
+          $.each(datos.baterias, function(indice){
+                var myBox = document.createElement('box');
+                var myImgBox = document.createElement('img');
+                var myDetails = document.createElement('details');
+                var myContent = document.createElement('content');
+                var myName = document.createElement('h1');
+                var myDescription = document.createElement('p');
+                var myPrecio = document.createElement('h1');
+                myImgBox.src = datos.baterias[indice].srcimagen;
+
+                myPrecio.textContent = datos.baterias[indice].precio
+
+
+                myContent.appendChild(myPrecio);
+                myDetails.appendChild(myContent);
+                myImgBox.appendChild(myContent);
+                myBox.appendChild(myImgBox);
+                section.appendChild(myBox);
+
+          });
+           $.each(datos.pianos, function(indice){
+                var myBox = document.createElement('box');
+                var myImgBox = document.createElement('img');
+                var myDetails = document.createElement('details');
+                var myContent = document.createElement('content');
+                var myName = document.createElement('h1');
+                var myDescription = document.createElement('p');
+                var myPrecio = document.createElement('h1');
+                myImgBox.src = datos.pianos[indice].srcimagen;
+
+                myPrecio.textContent = datos.pianos[indice].precio
+
+
+                myContent.appendChild(myPrecio);
+                myDetails.appendChild(myContent);
+                myImgBox.appendChild(myContent);
+                myBox.appendChild(myImgBox);
+                section.appendChild(myBox);
+
+          });         
       });
   </script>
 </html>

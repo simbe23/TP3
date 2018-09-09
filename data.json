@@ -17,7 +17,7 @@
           "nombre" : "PLAYER STRATOCASTER® PLUS TOP",
           "descripcion" : "Con este clásico sonido de agudos campanilleantes, medios pronunciados y bajos robustos, combinados con una articulación cristalina, la Player Stratocaster Plus Top está repleta de auténtico estilo y sensación Fender.",
           "precio" : "9500",
-          "srcimagen" : "IMG/guitarra1.jpg"
+          "srcimagen" : "IMG/guitarra2.jpg"
       },
       {
           "id" : "guitarra3",
@@ -156,10 +156,167 @@
           "precio" : "11500",
           "srcimagen" : "IMG/bajo9.jpg"
       }
+                ],
+
+
+
+"baterias" : [
+      {
+          "id" : "bateria1",
+          "idCategoria" : "1",
+          "nombre" : "MAPEX HX-529SFJKYT",
+          "descripcion" : "La Eric Johnson Signature Stratocaster Thinline es el matrimonio perfecto entre un cuerpo semi-hueco y una Stratocaster tradicional",
+          "precio" : "7500",
+          "srcimagen" : "IMG/bateria1.jpg"
+      },
+
+
+
+      {
+          "id" : "bateria2",
+          "idCategoria" : "1",
+          "nombre" : "MAPEX PDG5254TCDR",
+          "descripcion" : "Con este clásico sonido de agudos campanilleantes, medios pronunciados y bajos robustos, combinados con una articulación cristalina, la Player Stratocaster Plus Top está repleta de auténtico estilo y sensación Fender.",
+          "precio" : "9500",
+          "srcimagen" : "IMG/bateria2.jpg"
+      },
+      {
+          "id" : "bateria3",
+          "idCategoria" : "1",
+          "nombre" : "PEARL RS505BC/AR 31",
+          "descripcion" : "Con este clásico sonido de agudos campanilleantes, medios pronunciados y bajos robustos, combinados con una articulación cristalina, la Player Stratocaster para zurdos está repleta de auténtico estilo y sensación Fender",
+          "precio" : "8000",
+          "srcimagen" : "IMG/bateria3.jpg"
+      },
+       {
+          "id" : "bateria4",
+          "idCategoria" : "1",
+          "nombre" : "PEARL RS525WFBC/AR 31",
+          "descripcion" : "Con un sonido grueso y denso, con un estilo elegante y atractivo, la Player Jazzmaster se destaca de todas. Es un instrumento inspirador con un tono Fender flexible y auténtico, un sonido que funciona con cualquier tipo de música.",
+          "precio" : "5000",
+          "srcimagen" : "IMG/bateria4.jpg"
+      },
+       {
+          "id" : "bateria5",
+          "idCategoria" : "1",
+          "nombre" : "THUNDER JBJ1044-WR",
+          "descripcion" : "La Strat-Tele Híbrida es el instrumento ideal para tocar esos fraseos intensos en cualquier circunstancia. Hemos añadido a la Tele® tres pastillas Custom Shop '69 Strat®, un puente Strat con trémolo sincronizado y un elegante logotipo plateado Fender",
+          "precio" : "6500",
+          "srcimagen" : "IMG/bateria5.jpg"
+      },
+       {
+          "id" : "bateria6",
+          "idCategoria" : "1",
+          "nombre" : "THUNDER JBP0901-WR",
+          "descripcion" : "A menudo copiada, pero nunca superada, la Stratocaster es posiblemente la guitarra eléctrica más apreciada del mundo. Electrificó el mundo de la música desde su debut en 1954 y su sonido natural y versátil hizo de la Stratocaster el punto de referencia para el sonido de guitarra eléctrica ideal",
+          "precio" : "10000",
+          "srcimagen" : "IMG/bateria6.jpg"
+      },
+       {
+          "id" : "bateria7",
+          "idCategoria" : "1",
+          "nombre" : "POWER M JBP0901-WR",
+          "descripcion" : "Audaz, innovadora y resistente, la Player Telecaster es una auténtica Fender, de principio a fin. La sensación, el estilo y, lo más importante, el sonido: lo tiene todo, esperando que la utilices para hacer tu música",
+          "precio" : "11000",
+          "srcimagen" : "IMG/bateria7.jpg"
+      },
+       {
+          "id" : "bateria8",
+          "idCategoria" : "1",
+          "nombre" : "POWER JBP0901-MB2",
+          "descripcion" : "Ser músico es un acto rebelde y audaz: se necesita mucha fuerza para subir al escenario y convencer a una multitud de extraños para que amen algo que nunca habían escuchado. Para llamar la atención, necesitas la herramienta adecuada, por ejemplo, la Troublemaker Tele.",
+          "precio" : "7200",
+          "srcimagen" : "IMG/bateria8.jpg"
+      },
+
+      {
+          "id" : "bateria9",
+          "idCategoria" : "1",
+          "nombre" : "POWER JBP0901-MB",
+          "descripcion" : "El sonido inspirador de una Stratocaster es uno de los fundamentos de Fender. Con este clásico sonido de agudos campanilleantes, medios pronunciados y bajos robustos, combinados con una articulación cristalina, la Player Stratocaster está repleta de auténtico estilo y sensación Fender",
+          "precio" : "12500",
+          "srcimagen" : "IMG/bateria9.jpg"
+      }
+                ],
+
+"pianos" : [
+      {
+          "id" : "piano1",
+          "idCategoria" : "1",
+          "nombre" : "CLP-695GP",
+          "descripcion" : "El buque insignia clavinova CLP-695GP con un magnifico diseño de piano de cola",
+          "precio" : "7500",
+          "srcimagen" : "IMG/piano1.jpg"
+      },
+
+
+
+      {
+          "id" : "piano2",
+          "idCategoria" : "1",
+          "nombre" : "CLP-685",
+          "descripcion" : "El mejor teclado GrandTouch y el mejor sistema de sonido juntos para experimentar la sensación definitiva de tocar un piano de cola",
+          "precio" : "9500",
+          "srcimagen" : "IMG/piano2.jpg"
+      },
+      {
+          "id" : "piano3",
+          "idCategoria" : "1",
+          "nombre" : "PLAYER STRATOCASTER® ZURDOS",
+          "descripcion" : "Con este clásico sonido de agudos campanilleantes, medios pronunciados y bajos robustos, combinados con una articulación cristalina, la Player Stratocaster para zurdos está repleta de auténtico estilo y sensación Fender",
+          "precio" : "8000",
+          "srcimagen" : "IMG/piano3.jpg"
+      },
+       {
+          "id" : "piano4",
+          "idCategoria" : "1",
+          "nombre" : "PLAYER JAZZMASTER®",
+          "descripcion" : "Con un sonido grueso y denso, con un estilo elegante y atractivo, la Player Jazzmaster se destaca de todas. Es un instrumento inspirador con un tono Fender flexible y auténtico, un sonido que funciona con cualquier tipo de música.",
+          "precio" : "5000",
+          "srcimagen" : "IMG/piano4.jpg"
+      },
+       {
+          "id" : "piano5",
+          "idCategoria" : "1",
+          "nombre" : "2018 LIMITED EDITION STRAT-TELE® HYBRID",
+          "descripcion" : "La Strat-Tele Híbrida es el instrumento ideal para tocar esos fraseos intensos en cualquier circunstancia. Hemos añadido a la Tele® tres pastillas Custom Shop '69 Strat®, un puente Strat con trémolo sincronizado y un elegante logotipo plateado Fender",
+          "precio" : "6500",
+          "srcimagen" : "IMG/piano5.jpg"
+      },
+       {
+          "id" : "piano6",
+          "idCategoria" : "1",
+          "nombre" : "AMERICAN ORIGINAL '50S STRATOCASTER® LEFT-HAND",
+          "descripcion" : "A menudo copiada, pero nunca superada, la Stratocaster es posiblemente la guitarra eléctrica más apreciada del mundo. Electrificó el mundo de la música desde su debut en 1954 y su sonido natural y versátil hizo de la Stratocaster el punto de referencia para el sonido de guitarra eléctrica ideal",
+          "precio" : "10000",
+          "srcimagen" : "IMG/piano6.jpg"
+      },
+       {
+          "id" : "piano7",
+          "idCategoria" : "1",
+          "nombre" : "PLAYER TELECASTER® ZURDOS",
+          "descripcion" : "Audaz, innovadora y resistente, la Player Telecaster es una auténtica Fender, de principio a fin. La sensación, el estilo y, lo más importante, el sonido: lo tiene todo, esperando que la utilices para hacer tu música",
+          "precio" : "11000",
+          "srcimagen" : "IMG/piano7.jpg"
+      },
+       {
+          "id" : "piano8",
+          "idCategoria" : "1",
+          "nombre" : "2018 LIMITED EDITION TROUBLEMAKER TELE®",
+          "descripcion" : "Ser músico es un acto rebelde y audaz: se necesita mucha fuerza para subir al escenario y convencer a una multitud de extraños para que amen algo que nunca habían escuchado. Para llamar la atención, necesitas la herramienta adecuada, por ejemplo, la Troublemaker Tele.",
+          "precio" : "7200",
+          "srcimagen" : "IMG/piano8.jpg"
+      },
+
+      {
+          "id" : "piano9",
+          "idCategoria" : "1",
+          "nombre" : "PLAYER STRATOCASTER®",
+          "descripcion" : "El sonido inspirador de una Stratocaster es uno de los fundamentos de Fender. Con este clásico sonido de agudos campanilleantes, medios pronunciados y bajos robustos, combinados con una articulación cristalina, la Player Stratocaster está repleta de auténtico estilo y sensación Fender",
+          "precio" : "12500",
+          "srcimagen" : "IMG/piano9.jpg"
+      }
                 ]
-
-
-
 
 
 }
