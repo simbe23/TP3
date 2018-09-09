@@ -76,10 +76,7 @@
           "precio" : "12500",
           "srcimagen" : "IMG/guitarra9.jpg"
       }
-                ]
-}
-
-{
+                ],
 
 
 "bajos" : [
@@ -160,7 +157,6 @@
           "srcimagen" : "IMG/bajo9.jpg"
       }
                 ]
-
 
 
 
