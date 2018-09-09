@@ -26,7 +26,21 @@
     </div>
 
     <main>
- 	<div class="products">
+    Elementos:
+    <select name="items" id="items">
+        <option value="">0</option>
+    </select>
+
+    <script type="text/javascript">
+
+        $.getJSON('data.json', function(datos){
+            $.each(datos.guitarras, function(indice){
+                  var option = $('<option>'+datos.gutitarras[indice].nombre+'</option>');
+                  $("#items").append(option);
+            });
+        });
+    </script>
+ 	<!-- <div class="products">
  		<div class="container">
         	<ul>
          		 <a id="guitarras1">Guitarras </a><br>
@@ -546,7 +560,7 @@
     </div>
 
 
-    </div>
+    </div> -->
     </main>
 
 
