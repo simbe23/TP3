@@ -38,6 +38,13 @@
                   var option = $('<option>'+datos.guitarras[indice].nombre+'</option>');
                   $("#items").append(option);
             });
+        }); 
+
+        $.getJSON('data.json', function(datos){
+            $.each(datos.bajos, function(indice){
+                  var option = $('<option>'+datos.bajos[indice].nombre+'</option>');
+                  $("#items").append(option);
+            });
         });
     </script>
  	<!-- <div class="products">
