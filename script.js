@@ -58,74 +58,43 @@ function myFunction() {
   }
 }
 
-});
-
-
-
-function validateForm()
-  {
+	
+$("#submit").click(function(){
 	var letters = /^[A-Za-z]+$/;
-	var x = document.forms["myForm"]["firstname"].value;
-	var y = document.forms["myForm"]["lastname"].value;
-	var z = document.forms["myForm"]["bday"].value;
-	var w = document.forms["myForm"]["gender"].value;
-	var v = document.forms["myForm"]["valoracion"].value;
+	var x = $("[name=firstname]").val();
+	var y = $("[name=lastname]").val();
+	var z = $("[name=bday]").val();
+	var w = $("[name=gender]").val();
+	var v = $("[name=valoracion]").val();
 
-	document.forms["myForm"]["firstname"].style.border = "none";
-	document.forms["myForm"]["lastname"].style.border = "none";
-	document.forms["myForm"]["bday"].style.border = "1px solid black";
-	/*document.forms["myForm"]["gender"].style.border = "2px solid black"
-	document.forms["myForm"]["valoracion"].style.border = "2px solid black";
-*/
+
 	if (x == "" || y == '' || z == '' || w == '' || v == '') {
-        alert("complete todos los campos obligatorios");
-				if (x == "") {
-    				document.forms["myForm"]["firstname"].style.border = "2px solid red";
-  				}
-				if (y == "") {
-	    			document.forms["myForm"]["lastname"].style.border = "2px solid red";
-	  			}
-				if (z == "") {
-		    		document.forms["myForm"]["bday"].style.border = "2px solid red";
-		  		}
-			/*	if (w == "") {
-			  		document.forms["myForm"]["gender"].style.border = "2px solid red";
-			  	}*/
-				if (v == "") {
-						document.forms["myForm"]["valoracion"].style.border = "2px solid red";
-					}
-
+				alert("complete todos los campos obligatorios");
 				return false;
-    } else if (x.match(letters) && y.match(letters)) {
+		} else if (x.match(letters) && y.match(letters)) {
 			alert('Nombre: ' + x + '\nApellido: ' + y + '\nFecha de nacimiento: ' + z + '\nSexo: ' + w + '\nValoracion: ' + v);
-
-
+			
 			$("#nota-informativa")
 			.delay(1) // Tiempo del retraso en milisegundos antes de que aparezca el contenedor
 			.show( "bounce", { times:3, distance:100, direction:'down' }, 2000 ) // Uso de .show, específicamente con bounce y algunos parámetros específicos de esta animación.
 			setTimeout(function() { $("#nota-informativa").hide(); }, 5000);
+			
 			return false;
 			}
 			else
 			{
 			alert('nombre o apellido no validos, utilice solo caraceteres alfabeticos');
-			if (! x.match(letters)) {
-					document.forms["myForm"]["firstname"].style.border = "2px solid red";
-				}
-			if (! y.match(letters)) {
-					document.forms["myForm"]["lastname"].style.border = "2px solid red";
-				}
-
 			return false;
-    }
+		}
+});
 
- };
+$("#cancelar").click(function(){
+		if (confirm("Desea cancelar?")) {
+					return true;
+				} else {
+					return false;
+		}
+});	
+	
+});
 
-function cancelar()
-{
-	if (confirm("Desea cancelar?")) {
-    		return true;
-    } else {
-        return false;
-    }
-};
