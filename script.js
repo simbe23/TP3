@@ -58,11 +58,9 @@ function myFunction() {
   }
 }
 
-
-
-
-
 });
+
+
 
 function validateForm()
   {
@@ -100,6 +98,15 @@ function validateForm()
 				return false;
     } else if (x.match(letters) && y.match(letters)) {
 			alert('Nombre: ' + x + '\nApellido: ' + y + '\nFecha de nacimiento: ' + z + '\nSexo: ' + w + '\nValoracion: ' + v);
+
+
+			$("#nota-informativa")
+			.delay(5000) // Tiempo del retraso en milisegundos antes de que aparezca el contenedor
+			.show( "bounce", { times:3, distance:100, direction:'down' }, 2000 ) // Uso de .show, específicamente con bounce y algunos parámetros específicos de esta animación.
+			.delay(2000) //Tiempo de duración del contenedor en la página
+			.hide( "drop", { direction: "down" }, "slow" ); //Uso de .hide, con el efecto drop.
+
+
 			return false;
 			}
 			else
