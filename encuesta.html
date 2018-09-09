@@ -9,7 +9,6 @@
 
   </head>
 <body>
-
     <div class="main-container">
     <header>
         <div class="container banner" >
@@ -28,7 +27,7 @@
     <main>
           <h2>Encuesta</h2>
         <div class="formulario">
-          <form name="myForm" action="/action_page.php" id="form" onsubmit="return validateForm()">
+           <form name="myForm" action="/action_page.php" id="form">
             Nombre:<br>
             <input type="text" name="firstname" value="">
             <br>
@@ -57,7 +56,7 @@
 
             <br><br>
             <input type="submit" value="Submit" id="submit">
-            <input type="button" onclick="return cancelar()" value="Cancelacion" class="cancelar">
+            <input type="button" value="Cancelacion" class="cancelar" id="cancelar">
             <input type="reset">
           </form>
         </div>
