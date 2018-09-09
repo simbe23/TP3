@@ -46,7 +46,7 @@
        {
           "id" : "guitarra6",
           "idCategoria" : "1",
-          "nombre" : ">AMERICAN ORIGINAL '50S STRATOCASTER® LEFT-HAND",
+          "nombre" : "AMERICAN ORIGINAL '50S STRATOCASTER® LEFT-HAND",
           "descripcion" : "A menudo copiada, pero nunca superada, la Stratocaster es posiblemente la guitarra eléctrica más apreciada del mundo. Electrificó el mundo de la música desde su debut en 1954 y su sonido natural y versátil hizo de la Stratocaster el punto de referencia para el sonido de guitarra eléctrica ideal",
           "precio" : "10000",
           "srcimagen" : "IMG/guitarra6.jpg"
@@ -83,9 +83,9 @@
       {
           "id" : "bajo1",
           "idCategoria" : "1",
-          "nombre" : "ERIC JOHNSON SIGNATURE STRATOCASTER® THINLINE",
-          "descripcion" : "La Eric Johnson Signature Stratocaster Thinline es el matrimonio perfecto entre un cuerpo semi-hueco y una Stratocaster tradicional",
-          "precio" : "7500",
+          "nombre" : "PLAYER JAGUAR BASS®",
+          "descripcion" : "Cuando estés listo para subir al escenario y comenzar a tocar, necesitarás un instrumento que sea elegante, potente y que atraiga la atención, un instrumento como el Player Jaguar Bass. El cuerpo compensado y la sensación de comodidad le dan un atractivo moderno; la combinación de pastillas flexibles le da un sonido propio.",
+          "precio" : "15000",
           "srcimagen" : "IMG/bajo1.jpg"
       },
 
@@ -94,66 +94,66 @@
       {
           "id" :"bajo2",
           "idCategoria" : "1",
-          "nombre" : "PLAYER STRATOCASTER® PLUS TOP",
-          "descripcion" : "Con este clásico sonido de agudos campanilleantes, medios pronunciados y bajos robustos, combinados con una articulación cristalina, la Player Stratocaster Plus Top está repleta de auténtico estilo y sensación Fender.",
-          "precio" : "9500",
+          "nombre" : "PLAYER JAZZ BASS®",
+          "descripcion" : "Con sus dos pastillas de una bobina y su tacto suave, el Player Jazz Bass es un instrumento inspirador con un estilo clásico, superior y un auténtico tono de bajo Fender. Es poderoso, el sonido retumbante es fuerte y notorio; un gruñido que combina con una sensación de comodidad para una inyección de inspiración creativa.",
+          "precio" : "13500",
           "srcimagen" : "IMG/bajo2.jpg"
       },
       {
           "id" : "bajo3",
           "idCategoria" : "1",
-          "nombre" : "PLAYER STRATOCASTER® ZURDOS",
-          "descripcion" : "Con este clásico sonido de agudos campanilleantes, medios pronunciados y bajos robustos, combinados con una articulación cristalina, la Player Stratocaster para zurdos está repleta de auténtico estilo y sensación Fender",
-          "precio" : "8000",
+          "nombre" : "PLAYER JAZZ BASS® LEFT-HANDED",
+          "descripcion" : "Con sus dos pastillas de una bobina y su tacto suave, el Player Jazz Bass para zurdos es un instrumento inspirador con un estilo clásico, superior y un auténtico tono de bajo Fender. Es poderoso, el sonido retumbante es fuerte y notorio; un gruñido que combina con una sensación de comodidad para una inyección de inspiración creativa",
+          "precio" : "14500",
           "srcimagen" : "IMG/bajo3.jpg"
       },
        {
           "id" : "bajo4",
           "idCategoria" : "1",
-          "nombre" : "PLAYER JAZZMASTER®",
-          "descripcion" : "Con un sonido grueso y denso, con un estilo elegante y atractivo, la Player Jazzmaster se destaca de todas. Es un instrumento inspirador con un tono Fender flexible y auténtico, un sonido que funciona con cualquier tipo de música.",
-          "precio" : "5000",
+          "nombre" : "PLAYER JAZZ BASS® FRETLESS",
+          "descripcion" : "Con sus dos pastillas de una bobina y su tacto suave, el Player Jazz Bass Fretless es un instrumento inspirador con un estilo clásico, superior y un auténtico tono de bajo Fender. Es poderoso, el sonido retumbante es fuerte y notorio; un gruñido que combina con una sensación de comodidad para una inyección de inspiración creativa.",
+          "precio" : "16000",
           "srcimagen" : "IMG/bajo4.jpg"
       },
        {
           "id" : "bajo5",
           "idCategoria" : "1",
-          "nombre" : "2018 LIMITED EDITION STRAT-TELE® HYBRID",
-          "descripcion" : "La Strat-Tele Híbrida es el instrumento ideal para tocar esos fraseos intensos en cualquier circunstancia. Hemos añadido a la Tele® tres pastillas Custom Shop '69 Strat®, un puente Strat con trémolo sincronizado y un elegante logotipo plateado Fender",
-          "precio" : "6500",
+          "nombre" : "PLAYER JAZZ BASS® V",
+          "descripcion" : "With its dual single-coil pickups and smooth playing feel, the Player Jazz Bass V is an inspiring instrument with classic, elevated style and authentic Fender bass tone. It’s powerful, rumbling sound is punchy and tight; a growling voice that’s matched with fast, smooth playing feel for a shot of creative inspiration.",
+          "precio" : "17000",
           "srcimagen" : "IMG/bajo5.jpg"
       },
        {
           "id" : "bajo6",
           "idCategoria" : "1",
-          "nombre" : ">AMERICAN ORIGINAL '50S STRATOCASTER® LEFT-HAND",
-          "descripcion" : "A menudo copiada, pero nunca superada, la Stratocaster es posiblemente la guitarra eléctrica más apreciada del mundo. Electrificó el mundo de la música desde su debut en 1954 y su sonido natural y versátil hizo de la Stratocaster el punto de referencia para el sonido de guitarra eléctrica ideal",
-          "precio" : "10000",
+          "nombre" : "AMERICAN ORIGINAL '50S PRECISION BASS®",
+          "descripcion" : "Pocas compañías pueden afirmar honestamente haber cambiado el mundo como lo hicimos cuando creamos el Precision Bass en 1951. Al hacer que tocar el bajo tenga tan fácil acceso, ayudó a los músicos a encontrar su sonido creativo y crear nuevas formas de música.",
+          "precio" : "13500",
           "srcimagen" : "IMG/bajo6.jpg"
       },
        {
           "id" : "bajo7",
           "idCategoria" : "1",
-          "nombre" : "PLAYER TELECASTER® ZURDOS",
-          "descripcion" : "Audaz, innovadora y resistente, la Player Telecaster es una auténtica Fender, de principio a fin. La sensación, el estilo y, lo más importante, el sonido: lo tiene todo, esperando que la utilices para hacer tu música",
-          "precio" : "11000",
+          "nombre" : "AMERICAN ORIGINAL '60S PRECISION BASS®",
+          "descripcion" : "El Precision Bass de los 60s American Original tiene todas las características con las que el bajo P conquistó el mundo de la música: elegantemente simple, sonido, estilo y comodidad se unen con unas actualizaciones más modernas.",
+          "precio" : "18500",
           "srcimagen" : "IMG/bajo7.jpg"
       },
        {
           "id" : "bajo8",
           "idCategoria" : "1",
-          "nombre" : "2018 LIMITED EDITION TROUBLEMAKER TELE®",
-          "descripcion" : "Ser músico es un acto rebelde y audaz: se necesita mucha fuerza para subir al escenario y convencer a una multitud de extraños para que amen algo que nunca habían escuchado. Para llamar la atención, necesitas la herramienta adecuada, por ejemplo, la Troublemaker Tele.",
-          "precio" : "7200",
+          "nombre" : "AMERICAN ORIGINAL '60S JAZZ BASS®",
+          "descripcion" : "ELanzado en 1960, el exclusivo Jazz Bass encontró rápidamente el favor entre los bajistas en activo gracias a sus detalles y sonido versátil. El mástil más estrecho parecía hecho a medida para una ejecución rápida y diestra, mientras que el par de pastillas de bobina única agregaba una nueva dimensión al tono de bajo Fender",
+          "precio" : "16500",
           "srcimagen" : "IMG/bajo8.jpg"
       },
 
       {
           "id" : "bajo9",
           "idCategoria" : "1",
-          "nombre" : "PLAYER STRATOCASTER®",
-          "descripcion" : "El sonido inspirador de una Stratocaster es uno de los fundamentos de Fender. Con este clásico sonido de agudos campanilleantes, medios pronunciados y bajos robustos, combinados con una articulación cristalina, la Player Stratocaster está repleta de auténtico estilo y sensación Fender",
-          "precio" : "12500",
+          "nombre" : "AMERICAN ORIGINAL '70S JAZZ BASS®",
+          "descripcion" : "El 70 Jazz Bass American Original se actualiza la sensación con un diapasón de radio moderno, conservando el tono y el estilo clásico de Fender que hicieron del Jazz Bass la herramienta elegida por los bajistas creativos",
+          "precio" : "11500",
           "srcimagen" : "IMG/bajo9.jpg"
       }
                 ]
