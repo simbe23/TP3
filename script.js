@@ -104,11 +104,6 @@ function validateForm()
 			.delay(1) // Tiempo del retraso en milisegundos antes de que aparezca el contenedor
 			.show( "bounce", { times:3, distance:100, direction:'down' }, 2000 ) // Uso de .show, específicamente con bounce y algunos parámetros específicos de esta animación.
 			setTimeout(function() { $("#nota-informativa").hide(); }, 5000);
-
-			//.delay(5000) //Tiempo de duración del contenedor en la página
-			//.hide( "drop", { direction: "down" }, "slow" ); //Uso de .hide, con el efecto drop.
-
-
 			return false;
 			}
 			else
