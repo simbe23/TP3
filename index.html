@@ -65,7 +65,7 @@
                                 myImg.src = datos.guitarras[indice].srcimagen;
                                 $(myImg).attr ('id', datos.guitarras[indice].id);
                 myLi.appendChild(myImg);
-                var myDetails = document.createElement('details');
+                var myDetails = document.createElement('deta');
                 myDetails.className = "details";
                 myBox.appendChild(myDetails);
                 var myContent = document.createElement('content');
@@ -76,7 +76,7 @@
                 var myDescription = document.createElement('p');
                         myDescription.textContent = datos.guitarras[indice].descripcion;
                 var myPrecio = document.createElement('h3');
-                       myPrecio.textContent = datos.guitarras[indice].precio;
+                       myPrecio.textContent = datos.guitarras[indice].precio + '$';
                        $(myPrecio).attr ('id', datos.guitarras[indice].id + 'precio')
                 myContent.append(myName);
                 myContent.append(myDescription);
