@@ -45,28 +45,51 @@
 
         var myProducts = document.createElement('products');
         myProducts.className = "products";
+        var myContainer = document.createElement('container');
+        myContainer.className = "container";
+
+        var myUl = document.createElement('ul');
+        myContainer.appendChild(myUl);
+        myProducts.appendChild(myContainer);
 
           $.each(datos.guitarras, function(indice){
                 var myBox = document.createElement('box');
-                var myImgBox = document.createElement('img');
-                var myDetails = document.createElement('details');
-                var myContent = document.createElement('content');
-                var myName = document.createElement('h1');
-                var myDescription = document.createElement('p');
-                var myPrecio = document.createElement('h1');
-
-
-                myImgBox.src = datos.guitarras[indice].srcimagen;
-                myPrecio.textContent = datos.guitarras[indice].precio;
-
-                myContent.appendChild(myPrecio);
-                myDetails.appendChild(myContent);
-                myImgBox.appendChild(myDetails);
+                myBox.className = "box";
+                myUl.appendChild(myBox);
+                var myImgBox = document.createElement('imgBox');
+                myImgBox.className = "imgBox";
                 myBox.appendChild(myImgBox);
-                myProducts.appendChild(myBox);
+                var myLi = document.createElement('li');
+                myImgBox.appendChild(myLi);
+                var myImg = document.createElement ('img');
+                                myImg.src = datos.guitarras[indice].srcimagen;
+                myLi.appendChild(myImg);
+                var myDetails = document.createElement('details');
+                myDetails.className = "details";
+                myBox.appendChild(myDetails);
+                var myContent = document.createElement('content');
+                myContent.className = "content";
+                myDetails.appendChild(myContent);
+                var myName = document.createElement('h2');
+                        myName.textContent = datos.guitarras[indice].nombre;
+                var myDescription = document.createElement('p');
+                        myDescription.textContent = datos.guitarras[indice].descripcion;
+                var myPrecio = document.createElement('h3');
+                        myPrecio.textContent = datos.guitarras[indice].precio;
+                myContent.append(myName);
+                myContent.append(myDescription);
+                myContent.append(myPrecio);
+
+
                 section.appendChild(myProducts);
 
           });
+
+
+
+
+
+          
           $.each(datos.bajos, function(indice){
                 var myBox = document.createElement('box');
                 var myImgBox = document.createElement('img');
