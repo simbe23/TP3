@@ -67,6 +67,47 @@ $("#submit").click(function(){
 			.delay(1) // Tiempo del retraso en milisegundos antes de que aparezca el contenedor
 			.show( "bounce", { times:3, distance:100, direction:'down' }, 2000 ) // Uso de .show, específicamente con bounce y algunos parámetros específicos de esta animación.
 			setTimeout(function() { $("#nota-informativa").hide(); }, 5000);
+			
+			
+			
+			$.ajax({url: "peticiones.json",
+			dataType: "json",
+			type:"GET",
+			success:function(){
+				alert("datos procesados")
+			},
+			error:function(){
+				alert("datos no procesados")
+			}
+			});
+
+			var obj = { nombre: x , apellido: y };
+			var myJson = JSON.stringify(obj);
+			alert(myJson);
+			$.ajax({url: "peticiones.json",
+			dataType: "json",
+			type:"GET",
+			data:myJson,
+			success:function(){
+				alert("datos procesados")
+			},
+			error:function(){
+				alert("datos no procesados")
+			}
+			});
+
+			$.ajax({url: "peticiones.json",
+			async:false,
+			dataType: "json",
+			type:"POST",
+			data:myJson,
+			success:function(){
+				alert("datos procesados")
+			},
+			error:function(){
+				alert("datos no procesados")
+			}
+			});
 
 			return false;
 			}
