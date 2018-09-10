@@ -7,7 +7,7 @@ var total = 0;
 function setBindings() {
 	if (on_index == true) {
 
-						$(".navbar a").click(function(e){
+						$(".nav-collapse a").click(function(e){
 							e.preventDefault();
 							if ((e.currentTarget.id !== "encuesta") & (e.currentTarget.id !== "contacto") & (e.currentTarget.id !== "total1")){
 									var sectionID = e.currentTarget.id + "1";
@@ -67,9 +67,9 @@ $("#submit").click(function(){
 			.delay(1) // Tiempo del retraso en milisegundos antes de que aparezca el contenedor
 			.show( "bounce", { times:3, distance:100, direction:'down' }, 2000 ) // Uso de .show, específicamente con bounce y algunos parámetros específicos de esta animación.
 			setTimeout(function() { $("#nota-informativa").hide(); }, 5000);
-			
-			
-			
+
+
+
 			$.ajax({url: "peticiones.json",
 			dataType: "json",
 			type:"GET",
