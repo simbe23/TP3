@@ -385,6 +385,9 @@ input[type=button] {
 
 }
 
+.ml-md-auto a:hover {
+	background-color: transparent;
+}
 
 @media screen and (max-width: 1000px) {
 
