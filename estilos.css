@@ -7,6 +7,14 @@
 	padding: 0;
 	}
 
+	#map {
+		clear: both;
+		position: static;
+		overflow: hidden;
+		height: 100%;
+		width: 100%;
+	}
+
 	header {
 	background: white;
 	background-color: #f2f2f2;
@@ -359,7 +367,21 @@ input[type=button] {
 	background-color: #CA002A;
 }
 
+.contacto {
+  padding: 10px 16px;
+  background-color: #333;
+  color: #f1f1f1;
+}
 
+.contacto a{
+  color: #f2f2f2;
+	text-align: center;
+	text-decoration: none;
+	font-size: 30px;
+	margin-top: 10%;
+	width: 100%;
+
+}
 
 
 @media screen and (max-width: 1000px) {

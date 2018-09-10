@@ -7,7 +7,7 @@ var total = 0;
 function setBindings() {
 	$(".navbar a").click(function(e){
 		e.preventDefault();
-		if (e.currentTarget.id !== "encuesta") {
+		if (e.currentTarget.id !== "encuesta") & (e.currentTarget.id !== "contacto"){
 				var sectionID = e.currentTarget.id + "1";
 				$("html body").animate({
 					scrollTop: $("#" + sectionID).offset().top

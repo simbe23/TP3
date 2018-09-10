@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <script src="jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <div class="main-container">
+    <header>
+        <div class="container banner" >
+        <a title="Starway to Hell" href="index.html"><img class="banner-image" src="IMG/musicBanner3.jpg" alt="logo" /></a>
+    </header>
+
+    <div class="navbar" id="mynav">
+
+      <a id="guitarras" href="index.html" >Guitarras</a>
+      <a id="bajos" href="index.html" >Bajos</a>
+      <a id="baterias" href="index.html" >Baterias</a>
+      <a id="pianos" href="index.html" >Pianos</a>
+      <a id="encuesta" href="encuesta.html" >Encuesta</a>
+      <a id="contacto" href="contacto.html" >Contacto</a>
+    </div>
+ <div id="map"></div>
+    <script>
+      function initMap() {
+        var myLatLng = {lat: -34.904105, lng: -57.925242};
+
+        // Create a map object and specify the DOM element
+        // for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: myLatLng,
+          zoom: 16
+        });
+
+        // Create a marker and set its position.
+        var marker = new google.maps.Marker({
+          map: map,
+          position: myLatLng,
+          title: 'Hello World!'
+        });
+      }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9XUlmekunHC9h4WSdzDWWzIkANFhVBJY&callback=initMap"
+        async defer></script>
+    <div class="contacto">
+    <a> Nombre de la empresa : Highway to heaven</a><br><br>
+    <a>E-mail: hth@gmail.com</a><br><br>
+    <a>fax: no tenemos jaja salu2</a><br><br>
+    </div>
+    <footer>
+         <p>Desarrollado por Ibarra,Simbeni y Lanzi- Copyright (©) 2018</p>
+    </footer>
+
+  </body>
+
+
