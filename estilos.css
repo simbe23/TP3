@@ -42,13 +42,13 @@
 		color: green;
 	}
 
-	.banner {
+	.container-fluid{
 		width: 100%;
 		display: block;
 		min-width: 100%;
 	}
 
-	.banner .banner-image {
+	.container-fluid .img-responsive {
 		width: 100%;
 		display: block;
 		height: 40%;
@@ -389,13 +389,13 @@ input[type=button] {
 @media screen and (max-width: 1000px) {
 
 
-	.banner {
+	.container-fluid {
 		width: 100%;
 		display: block;
 		min-width: 100%;
 	}
 
-	.banner .banner-image {
+	.container-fluid .img-responsive {
 		width: 100%;
 		display: block;
 		height: 20%;
