@@ -14,7 +14,11 @@ function setBindings() {
 				}, 1000)
 		}
 		else {
-			window.location.href = 'encuesta.html';
+			if (e.currentTarget.id == "encuesta") {
+				window.location.href = 'encuesta.html';}
+			else {
+				window.location.href = 'contacto.html';
+			}
 		}
 
 	})};
