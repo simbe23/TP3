@@ -9,7 +9,7 @@ function setBindings() {
 
 						$(".navbar a").click(function(e){
 							e.preventDefault();
-							if ((e.currentTarget.id !== "encuesta") & (e.currentTarget.id !== "contacto")){
+							if ((e.currentTarget.id !== "encuesta") & (e.currentTarget.id !== "contacto") & (e.currentTarget.id !== "total")){
 									var sectionID = e.currentTarget.id + "1";
 									$("html body").animate({
 										scrollTop: $("#" + sectionID).offset().top
@@ -18,7 +18,7 @@ function setBindings() {
 							else {
 								if (e.currentTarget.id == "encuesta") {
 									window.location.href = 'encuesta.html';}
-								else {
+								if (e.currentTarget.id == "contacto") {
 									window.location.href = 'contacto.html';
 								}
 							}
