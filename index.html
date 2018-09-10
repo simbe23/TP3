@@ -47,7 +47,6 @@
         myProducts.className = "products";
         var myContainer = document.createElement('container');
         myContainer.className = "container";
-
         var myUl = document.createElement('ul');
         myContainer.appendChild(myUl);
         myProducts.appendChild(myContainer);
@@ -126,6 +125,16 @@
                 section.appendChild(myProducts);
 
           });
+
+
+          var myProducts = document.createElement('products');
+          myProducts.className = "products1";
+          var myContainer = document.createElement('container');
+          myContainer.className = "container";
+          var myUl = document.createElement('ul');
+          myContainer.appendChild(myUl);
+          myProducts.appendChild(myContainer);
+
           $.each(datos.baterias, function(indice){
                 var myBox = document.createElement('box');
                 myBox.className = "box";
@@ -160,6 +169,17 @@
                 section.appendChild(myProducts);
 
           });
+
+          var myProducts = document.createElement('products');
+          myProducts.className = "products2";
+          var myContainer = document.createElement('container');
+          myContainer.className = "container";
+          var myUl = document.createElement('ul');
+          myContainer.appendChild(myUl);
+          myProducts.appendChild(myContainer);
+
+
+
           $.each(datos.pianos, function(indice){
                 var myBox = document.createElement('box');
                 myBox.className = "box";
