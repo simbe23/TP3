@@ -4,24 +4,24 @@ $(document).ready(function(){
 
 var total = 0;
 
-// function setBindings() {
-// 	$(".navbar a").click(function(e){
-// 		e.preventDefault();
-// 		if ((e.currentTarget.id !== "encuesta") & (e.currentTarget.id !== "contacto")){
-// 				var sectionID = e.currentTarget.id + "1";
-// 				$("html body").animate({
-// 					scrollTop: $("#" + sectionID).offset().top
-// 				}, 1000)
-// 		}
-// 		else {
-// 			if (e.currentTarget.id == "encuesta") {
-// 				window.location.href = 'encuesta.html';}
-// 			else {
-// 				window.location.href = 'contacto.html';
-// 			}
-// 		}
-//
-// 	})};
+function setBindings() {
+	$(".navbar a").click(function(e){
+		e.preventDefault();
+		if ((e.currentTarget.id !== "encuesta") & (e.currentTarget.id !== "contacto")){
+				var sectionID = e.currentTarget.id + "1";
+				$("html body").animate({
+					scrollTop: $("#" + sectionID).offset().top
+				}, 1000)
+		}
+		else {
+			if (e.currentTarget.id == "encuesta") {
+				window.location.href = 'encuesta.html';}
+			else {
+				window.location.href = 'contacto.html';
+			}
+		}
+
+	})};
 
 
 	$(".box").click(function(e){
@@ -43,7 +43,7 @@ var total = 0;
 		});
 
 
-// var header = $("#mynav")[0];
+ var header = $("#mynav")[0];
 
 
 $("#submit").click(function(){
