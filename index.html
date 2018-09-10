@@ -50,6 +50,12 @@
         var myUl = document.createElement('ul');
         myContainer.appendChild(myUl);
         myProducts.appendChild(myContainer);
+        var myTitle = document.createElement('a')
+        myTitle.textContent = "Guitarras";
+        $(myTitle).attr('id','guitarras1');
+        myUl.appendChild(myTitle);
+        var myBr = document.createElement('br');
+        myUl.appendChild(myBr);
 
           $.each(datos.guitarras, function(indice){
                 var myBox = document.createElement('box');
@@ -88,8 +94,17 @@
 
 
 
+          var myBr = document.createElement('br');
+          myUl.appendChild(myBr);
 
 
+          
+          var myTitle = document.createElement('a')
+          myTitle.textContent = "Bajos";
+          $(myTitle).attr('id','bajos1');
+          myUl.appendChild(myTitle);
+          var myBr = document.createElement('br');
+          myUl.appendChild(myBr);
 
           $.each(datos.bajos, function(indice){
                 var myBox = document.createElement('box');
@@ -135,6 +150,14 @@
           myContainer.appendChild(myUl);
           myProducts.appendChild(myContainer);
 
+          var myTitle = document.createElement('a')
+          myTitle.textContent = "Baterias";
+          $(myTitle).attr('id','baterias1');
+          myUl.appendChild(myTitle);
+          var myBr = document.createElement('br');
+          myUl.appendChild(myBr);
+
+
           $.each(datos.baterias, function(indice){
                 var myBox = document.createElement('box');
                 myBox.className = "box";
@@ -178,7 +201,12 @@
           myContainer.appendChild(myUl);
           myProducts.appendChild(myContainer);
 
-
+          var myTitle = document.createElement('a')
+          myTitle.textContent = "Pianos";
+          $(myTitle).attr('id','pianos1');
+          myUl.appendChild(myTitle);
+          var myBr = document.createElement('br');
+          myUl.appendChild(myBr);
 
           $.each(datos.pianos, function(indice){
                 var myBox = document.createElement('box');
