@@ -298,23 +298,6 @@
           "descripcion" : "Audaz, innovadora y resistente, la Player Telecaster es una auténtica Fender, de principio a fin. La sensación, el estilo y, lo más importante, el sonido: lo tiene todo, esperando que la utilices para hacer tu música",
           "precio" : "11000",
           "srcimagen" : "IMG/piano7.jpg"
-      },
-       {
-          "id" : "piano8",
-          "idCategoria" : "1",
-          "nombre" : "2018 LIMITED EDITION TROUBLEMAKER TELE®",
-          "descripcion" : "Ser músico es un acto rebelde y audaz: se necesita mucha fuerza para subir al escenario y convencer a una multitud de extraños para que amen algo que nunca habían escuchado. Para llamar la atención, necesitas la herramienta adecuada, por ejemplo, la Troublemaker Tele.",
-          "precio" : "7200",
-          "srcimagen" : "IMG/piano8.jpg"
-      },
-
-      {
-          "id" : "piano9",
-          "idCategoria" : "1",
-          "nombre" : "PLAYER STRATOCASTER®",
-          "descripcion" : "El sonido inspirador de una Stratocaster es uno de los fundamentos de Fender. Con este clásico sonido de agudos campanilleantes, medios pronunciados y bajos robustos, combinados con una articulación cristalina, la Player Stratocaster está repleta de auténtico estilo y sensación Fender",
-          "precio" : "12500",
-          "srcimagen" : "IMG/piano9.jpg"
       }
                 ]
 

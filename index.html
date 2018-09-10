@@ -42,6 +42,10 @@
   <script type="text/javascript">
       var section = document.querySelector('section');
       $.getJSON('data.json', function(datos){
+
+        var myProducts = document.createElement('products');
+        myProducts.className = "products";
+
           $.each(datos.guitarras, function(indice){
                 var myBox = document.createElement('box');
                 var myImgBox = document.createElement('img');
@@ -50,16 +54,17 @@
                 var myName = document.createElement('h1');
                 var myDescription = document.createElement('p');
                 var myPrecio = document.createElement('h1');
+
+
                 myImgBox.src = datos.guitarras[indice].srcimagen;
-
-                myPrecio.textContent = datos.guitarras[indice].precio
-
+                myPrecio.textContent = datos.guitarras[indice].precio;
 
                 myContent.appendChild(myPrecio);
                 myDetails.appendChild(myContent);
-                myImgBox.appendChild(myContent);
+                myImgBox.appendChild(myDetails);
                 myBox.appendChild(myImgBox);
-                section.appendChild(myBox);
+                myProducts.appendChild(myBox);
+                section.appendChild(myProducts);
 
           });
           $.each(datos.bajos, function(indice){
@@ -121,7 +126,7 @@
                 myBox.appendChild(myImgBox);
                 section.appendChild(myBox);
 
-          });         
+          });
       });
   </script>
 </html>
